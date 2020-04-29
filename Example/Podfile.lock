@@ -1,0 +1,16 @@
+PODS:
+  - CJMImageCategory (0.1.0)
+
+DEPENDENCIES:
+  - CJMImageCategory (from `../`)
+
+EXTERNAL SOURCES:
+  CJMImageCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJMImageCategory: 8c53815ffa536dc3aabb98858586ee89ced406e2
+
+PODFILE CHECKSUM: 8538ba995f86402646848589da5c46d6bbfb465c
+
+COCOAPODS: 1.9.1

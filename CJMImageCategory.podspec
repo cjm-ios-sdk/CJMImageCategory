@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'CJMImageCategory'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CJMImageCategory.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'UIImage相关的接口扩展'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+UIImage相关的接口扩展，图片缩放，染色，纯色图片共享等。
                        DESC
 
-  s.homepage         = 'https://github.com/chenjm/CJMImageCategory'
+  s.homepage         = 'https://github.com/cjm-ios-sdk/CJMImageCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenjm' => 'cjiemin@163.com' }
-  s.source           = { :git => 'https://github.com/chenjm/CJMImageCategory.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/cjm-ios-sdk/CJMImageCategory.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CJMImageCategory/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CJMImageCategory' => ['CJMImageCategory/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

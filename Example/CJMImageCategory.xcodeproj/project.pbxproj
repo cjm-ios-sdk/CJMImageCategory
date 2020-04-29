@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BF2BCD9CF670F78EF695EE19 /* Pods_CJMImageCategory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A05D61D2DD644223390BE6 /* Pods_CJMImageCategory_Tests.framework */; };
+		FC7B14772459195C00909C7B /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7B14762459195C00909C7B /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +65,10 @@
 		A1A05D61D2DD644223390BE6 /* Pods_CJMImageCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJMImageCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A315867B4C1F96B73FD0FC /* Pods-CJMImageCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMImageCategory_Example.debug.xcconfig"; path = "Target Support Files/Pods-CJMImageCategory_Example/Pods-CJMImageCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BCDF46E3725EEA08AA692C25 /* Pods-CJMImageCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMImageCategory_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CJMImageCategory_Tests/Pods-CJMImageCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D30E01F2EA7A43A862906950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E3B681D0C9CB6F1F5F28DE10 /* CJMImageCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CJMImageCategory.podspec; path = ../CJMImageCategory.podspec; sourceTree = "<group>"; };
-		ED33EAD0AEB6C01CB3658E73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D30E01F2EA7A43A862906950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3B681D0C9CB6F1F5F28DE10 /* CJMImageCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJMImageCategory.podspec; path = ../CJMImageCategory.podspec; sourceTree = "<group>"; };
+		ED33EAD0AEB6C01CB3658E73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC7B14762459195C00909C7B /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,6 @@
 				BCDF46E3725EEA08AA692C25 /* Pods-CJMImageCategory_Tests.debug.xcconfig */,
 				9D4E18B59B6C322767EDD250 /* Pods-CJMImageCategory_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +150,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CJMViewController.h */,
 				6003F5A6195388D20070C39A /* CJMViewController.m */,
+				FC7B14762459195C00909C7B /* image.png */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				FC7B14772459195C00909C7B /* image.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
