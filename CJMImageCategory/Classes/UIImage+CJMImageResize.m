@@ -18,6 +18,10 @@
     CGContextDrawImage(outputContext, imageRect, self.CGImage);
     
     UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
+    outputImage = [outputImage initWithCGImage:outputImage.CGImage
+                                         scale:self.scale
+                                   orientation:self.imageOrientation];
+    
     UIGraphicsEndImageContext();
     
     return outputImage;
