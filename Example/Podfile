@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CJMImageCategory_Example' do
+  pod 'CJMImageCategory', :path => '../'
+
+  target 'CJMImageCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
